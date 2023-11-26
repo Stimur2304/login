@@ -1,0 +1,53 @@
+.div{
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-div{
+    background-color: white;
+    width: 600px;
+    border-radius: 25px;
+    height: 500px;
+    display:flex;
+    border: 1px solid #4267B2;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#outlined-basic{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 400px;
+    border:  white 1px solid;
+}
+#outlined-basic label{
+    color: aliceblue;
+}
+
+.button__div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    height: 200px;
+    justify-content: space-between;
+    margin: auto 5e0px auto 0 ;
+    
+}
+#buttonn{
+    background-color: aliceblue;
+}
+.circle{
+   height: 100px;
+}
+
+.alert-div .MuiPaper-root{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+.alert-div{
+    margin-top: 200px;
+}
