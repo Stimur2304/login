@@ -56,7 +56,7 @@ const Login = () => {
   useEffect(()=>{
     setTimeout(()=>{
       setAlert(prevState=>({...prevState,isActive:false}))
-    },5000)
+    },8000)
   },[alert])
   return (
     <div className='div'>
